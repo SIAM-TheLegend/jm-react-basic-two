@@ -1,12 +1,12 @@
 import "./App.css";
+import Counter from "./Counter";
 
 function App() {
-  function getSomething(countProp) {
-    const count = countProp;
-    return count;
-  }
-
-  return <>{getSomething}</>;
+  return (
+    <div>
+      <Counter />
+    </div>
+  );
 }
 
 export default App;
